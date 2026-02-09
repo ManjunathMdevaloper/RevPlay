@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+
+	<Appenders>
+
+		<!-- Console Logger -->
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout
+					pattern="%d{yyyy-MM-dd HH:mm:ss} [%level] %c - %msg%n" />
+		</Console>
+
+		<!-- Daily Rolling File Logger -->
+		<RollingFile
+				name="RollingFileLogger"
+				fileName="logs/revplay.log"
+				filePattern="logs/revplay-%d{yyyy-MM-dd}.log">
+
+			<PatternLayout
+					pattern="%d{yyyy-MM-dd HH:mm:ss} [%level] %c - %msg%n" />
+
+			<Policies>
+				<!-- Roll file every day -->
+				<TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+			</Policies>
+
+		</RollingFile>
+
+	</Appenders>
+
+	<Loggers>
+
+		<Root level="info">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="RollingFileLogger" />
+		</Root>
+
+	</Loggers>
+
+</Configuration>

@@ -1,0 +1,489 @@
+2026-01-25 13:49:50 [INFO] com.revplay.main.RevPlayApp - Thank you for using RevPlay!
+2026-01-25 14:47:03 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-25 14:48:47 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: rahul@gmail.com
+2026-01-25 14:48:49 [INFO] com.revplay.service.UserServiceImpl - Login success: rahul@gmail.com, role=USER
+2026-01-25 14:49:33 [INFO] com.revplay.service.SongServiceImpl - User 1 requested to play song 343
+2026-01-25 14:49:33 [INFO] com.revplay.service.SongServiceImpl - Play count incremented for songId=343
+2026-01-25 14:49:33 [INFO] com.revplay.service.SongServiceImpl - Listening history added for userId=1, songId=343
+2026-01-25 14:49:33 [INFO] com.revplay.service.SongServiceImpl - Song played successfully: Title Song
+2026-01-25 14:49:51 [INFO] com.revplay.service.SongServiceImpl - User 1 requested to play song 344
+2026-01-25 14:49:52 [WARN] com.revplay.service.SongServiceImpl - Song not found for songId=344
+2026-01-25 14:50:01 [INFO] com.revplay.main.RevPlayApp - Application exited by user
+2026-01-25 14:50:01 [INFO] com.revplay.main.RevPlayApp - Thank you for using RevPlay!
+2026-01-25 15:37:22 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-25 15:40:15 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: rahul@gmail.com
+2026-01-25 15:40:17 [INFO] com.revplay.service.UserServiceImpl - Login success: rahul@gmail.com, role=USER
+2026-01-25 15:40:40 [INFO] com.revplay.service.SongServiceImpl - User 1 requested to play song 343
+2026-01-25 15:40:40 [INFO] com.revplay.service.SongServiceImpl - Play count incremented for songId=343
+2026-01-25 15:40:40 [INFO] com.revplay.service.SongServiceImpl - Listening history added for userId=1, songId=343
+2026-01-25 15:40:40 [INFO] com.revplay.service.SongServiceImpl - Song played successfully: Title Song
+2026-01-25 15:40:52 [INFO] com.revplay.service.SongServiceImpl - User 1 requested to play song 344
+2026-01-25 15:40:52 [WARN] com.revplay.service.SongServiceImpl - Song not found for songId=344
+2026-01-25 15:41:09 [INFO] com.revplay.main.RevPlayApp - Application exited by user
+2026-01-25 15:41:09 [INFO] com.revplay.main.RevPlayApp - Thank you for using RevPlay!
+2026-01-25 15:50:28 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-25 15:50:48 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: ram@gmail.com
+2026-01-25 15:50:50 [INFO] com.revplay.service.UserServiceImpl - Login success: ram@gmail.com, role=ARTIST
+2026-01-25 15:51:40 [INFO] com.revplay.service.ArtistServiceImpl - Saving artist profile for userId=23
+2026-01-25 15:51:40 [INFO] com.revplay.service.ArtistServiceImpl - Artist profile saved successfully for userId=23
+2026-01-25 15:52:18 [INFO] com.revplay.service.AlbumServiceImpl - Artist 161 creating album: Varanasi
+2026-01-25 15:52:18 [INFO] com.revplay.service.AlbumServiceImpl - Album created successfully: Varanasi
+2026-01-25 15:53:53 [INFO] com.revplay.service.ArtistSongServiceImpl - Updating songId=361 by artistId=161
+2026-01-25 15:53:54 [INFO] com.revplay.service.ArtistSongServiceImpl - Song updated successfully. songId=361
+2026-01-25 15:54:24 [INFO] com.revplay.service.ArtistSongServiceImpl - Deleting songId=361 by artistId=161
+2026-01-25 15:54:24 [INFO] com.revplay.service.ArtistSongServiceImpl - Song deleted successfully. songId=361
+2026-01-25 15:55:03 [INFO] com.revplay.main.RevPlayApp - Application exited by user
+2026-01-25 15:55:03 [INFO] com.revplay.main.RevPlayApp - Thank you for using RevPlay!
+2026-01-25 15:55:23 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-25 15:55:25 [INFO] com.revplay.main.RevPlayApp - Application exited by user
+2026-01-25 15:55:25 [INFO] com.revplay.main.RevPlayApp - Thank you for using RevPlay!
+2026-01-25 15:55:33 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-25 15:55:52 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: manu@gmail.com
+2026-01-25 15:55:54 [INFO] com.revplay.service.UserServiceImpl - Login success: manu@gmail.com, role=USER
+2026-01-25 15:56:07 [INFO] com.revplay.main.RevPlayApp - Application exited by user
+2026-01-25 15:56:07 [INFO] com.revplay.main.RevPlayApp - Thank you for using RevPlay!
+2026-01-25 15:57:57 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-25 15:58:13 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: sneha@gmail.com
+2026-01-25 15:58:14 [INFO] com.revplay.service.UserServiceImpl - Login success: sneha@gmail.com, role=USER
+2026-01-25 15:58:53 [INFO] com.revplay.main.RevPlayApp - Application exited by user
+2026-01-25 15:58:53 [INFO] com.revplay.main.RevPlayApp - Thank you for using RevPlay!
+2026-01-25 22:30:26 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-25 22:31:07 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: rahul@gmail.com
+2026-01-25 22:31:09 [INFO] com.revplay.service.UserServiceImpl - Login success: rahul@gmail.com, role=USER
+2026-01-25 22:34:35 [INFO] com.revplay.service.SongServiceImpl - User 1 requested to play song 341
+2026-01-25 22:34:35 [INFO] com.revplay.service.SongServiceImpl - Play count incremented for songId=341
+2026-01-25 22:34:35 [INFO] com.revplay.service.SongServiceImpl - Listening history added for userId=1, songId=341
+2026-01-25 22:34:35 [INFO] com.revplay.service.SongServiceImpl - Song played successfully: Surekha Nuvvu keka
+2026-01-25 22:35:16 [INFO] com.revplay.service.SongServiceImpl - User 1 requested to play song 342
+2026-01-25 22:35:17 [WARN] com.revplay.service.SongServiceImpl - Song not found for songId=342
+2026-01-25 22:36:26 [ERROR] com.revplay.dao.FavoriteDAOImpl - DB error in FavoriteDAOImpl.addToFavorites()
+java.sql.SQLIntegrityConstraintViolationException: ORA-00001: unique constraint (SYSTEM.SYS_C008334) violated
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:629) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:563) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1150) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:770) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:298) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:497) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:151) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1051) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1530) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1310) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3745) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeLargeUpdate(OraclePreparedStatement.java:3917) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:3896) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:991) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at com.revplay.dao.FavoriteDAOImpl.addToFavorites(FavoriteDAOImpl.java:31) [classes/:?]
+	at com.revplay.main.RevPlayAppMethonds.addToFavorites(RevPlayAppMethonds.java:433) [classes/:?]
+	at com.revplay.main.RevPlayAppMethonds.userDashboard(RevPlayAppMethonds.java:213) [classes/:?]
+	at com.revplay.main.RevPlayAppMethonds.handleLogin(RevPlayAppMethonds.java:169) [classes/:?]
+	at com.revplay.main.RevPlayApp.main(RevPlayApp.java:30) [classes/:?]
+Caused by: oracle.jdbc.OracleDatabaseException: ORA-00001: unique constraint (SYSTEM.SYS_C008334) violated
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:636) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	... 18 more
+2026-01-25 22:45:44 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: amit@gmail.com
+2026-01-25 22:45:44 [INFO] com.revplay.service.UserServiceImpl - Login success: amit@gmail.com, role=ARTIST
+2026-01-25 22:46:48 [INFO] com.revplay.service.ArtistServiceImpl - Saving artist profile for userId=10
+2026-01-25 22:46:49 [INFO] com.revplay.service.ArtistServiceImpl - Artist profile saved successfully for userId=10
+2026-01-25 22:48:10 [INFO] com.revplay.service.AlbumServiceImpl - Artist 105 creating album: KGF2
+2026-01-25 22:48:10 [INFO] com.revplay.service.AlbumServiceImpl - Album created successfully: KGF2
+2026-01-25 22:52:02 [INFO] com.revplay.service.ArtistSongServiceImpl - Updating songId=343 by artistId=105
+2026-01-25 22:52:02 [INFO] com.revplay.service.ArtistSongServiceImpl - Song updated successfully. songId=343
+2026-01-25 22:52:25 [INFO] com.revplay.service.ArtistSongServiceImpl - Deleting songId=343 by artistId=105
+2026-01-25 22:52:25 [INFO] com.revplay.service.ArtistSongServiceImpl - Song deleted successfully. songId=343
+2026-01-25 22:54:25 [INFO] com.revplay.service.AlbumServiceImpl - Updating albumId=301 by artistId=105
+2026-01-25 22:54:25 [INFO] com.revplay.service.AlbumServiceImpl - Album updated successfully. albumId=301
+2026-01-25 22:54:45 [INFO] com.revplay.service.AlbumServiceImpl - Attempting to delete albumId=242 by artistId=105
+2026-01-25 22:54:45 [INFO] com.revplay.service.AlbumServiceImpl - Album deleted successfully. albumId=242
+2026-01-25 22:58:01 [ERROR] com.revplay.dao.UserDAOImpl - DB error in UserDAOImpl.registerUser()
+java.sql.SQLIntegrityConstraintViolationException: ORA-00001: unique constraint (SYSTEM.SYS_C008321) violated
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:629) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:563) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1150) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:770) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:298) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:497) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:151) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1051) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1530) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1310) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3745) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeLargeUpdate(OraclePreparedStatement.java:3917) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:3896) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:991) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at com.revplay.dao.UserDAOImpl.registerUser(UserDAOImpl.java:118) [classes/:?]
+	at com.revplay.service.UserServiceImpl.registerUser(UserServiceImpl.java:58) [classes/:?]
+	at com.revplay.main.RevPlayAppMethonds.handleRegister(RevPlayAppMethonds.java:114) [classes/:?]
+	at com.revplay.main.RevPlayApp.main(RevPlayApp.java:33) [classes/:?]
+Caused by: oracle.jdbc.OracleDatabaseException: ORA-00001: unique constraint (SYSTEM.SYS_C008321) violated
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:636) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	... 17 more
+2026-01-25 23:01:25 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: y@gmail.com
+2026-01-25 23:01:25 [INFO] com.revplay.service.UserServiceImpl - Login success: y@gmail.com, role=USER
+2026-01-25 23:03:29 [INFO] com.revplay.service.ArtistServiceImpl - Saving artist profile for userId=63
+2026-01-25 23:03:29 [INFO] com.revplay.service.ArtistServiceImpl - Artist profile saved successfully for userId=63
+2026-01-25 23:03:54 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: vijay@gmail.com
+2026-01-25 23:03:54 [INFO] com.revplay.service.UserServiceImpl - Login success: vijay@gmail.com, role=ARTIST
+2026-01-25 23:04:14 [INFO] com.revplay.main.RevPlayApp - Application exited by user
+2026-01-26 08:17:32 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-26 08:17:58 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: rahul@gmail.com
+2026-01-26 08:17:59 [INFO] com.revplay.service.UserServiceImpl - Login success: rahul@gmail.com, role=USER
+2026-01-26 08:19:38 [INFO] com.revplay.main.RevPlayApp - Application exited by user
+2026-01-26 08:19:59 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-26 08:35:39 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-26 08:36:29 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-26 08:36:42 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: rahul@gmail.com
+2026-01-26 08:36:43 [INFO] com.revplay.service.UserServiceImpl - Login success: rahul@gmail.com, role=USER
+2026-01-26 08:38:30 [WARN] com.revplay.service.UserServiceImpl - Registration attempt with existing email: rahul@gmail.com
+2026-01-26 16:39:02 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-26 16:39:25 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: rahul@gmail.com
+2026-01-26 16:39:26 [INFO] com.revplay.service.UserServiceImpl - Login success: rahul@gmail.com, role=USER
+2026-01-26 16:40:04 [INFO] com.revplay.service.SongServiceImpl - User 1 requested to play song 381
+2026-01-26 16:40:05 [INFO] com.revplay.service.SongServiceImpl - Play count incremented for songId=381
+2026-01-26 16:40:05 [INFO] com.revplay.service.SongServiceImpl - Listening history added for userId=1, songId=381
+2026-01-26 16:40:05 [INFO] com.revplay.service.SongServiceImpl - Song played successfully: Thoofan
+2026-01-26 16:40:22 [INFO] com.revplay.service.SongServiceImpl - User 1 requested to play song 382
+2026-01-26 16:40:22 [WARN] com.revplay.service.SongServiceImpl - Song not found for songId=382
+2026-01-26 16:47:59 [INFO] com.revplay.service.UserServiceImpl - User registered successfully: sanjay@gmail.com
+2026-01-26 16:49:45 [INFO] com.revplay.service.ArtistServiceImpl - Saving artist profile for userId=65
+2026-01-26 16:49:45 [INFO] com.revplay.service.ArtistServiceImpl - Artist profile saved successfully for userId=65
+2026-01-26 16:50:01 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: p@gmail.com
+2026-01-26 16:50:01 [INFO] com.revplay.service.UserServiceImpl - Login success: p@gmail.com, role=ARTIST
+2026-01-26 16:50:29 [INFO] com.revplay.main.RevPlayApp - Application exited by user
+2026-01-27 09:21:10 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-27 09:21:16 [INFO] com.revplay.main.RevPlayApp - Application exited by user
+2026-01-27 09:30:01 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-27 09:30:18 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-27 14:42:51 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-27 14:43:08 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: rahul@gmail.com
+2026-01-27 14:43:09 [INFO] com.revplay.service.UserServiceImpl - Login success: rahul@gmail.com, role=USER
+2026-01-27 14:43:43 [INFO] com.revplay.service.SongServiceImpl - User 1 requested to play song 381
+2026-01-27 14:43:43 [INFO] com.revplay.service.SongServiceImpl - Play count incremented for songId=381
+2026-01-27 14:43:43 [INFO] com.revplay.service.SongServiceImpl - Listening history added for userId=1, songId=381
+2026-01-27 14:43:43 [INFO] com.revplay.service.SongServiceImpl - Song played successfully: Thoofan
+2026-01-27 14:44:02 [INFO] com.revplay.service.SongServiceImpl - User 1 requested to play song 382
+2026-01-27 14:44:02 [WARN] com.revplay.service.SongServiceImpl - Song not found for songId=382
+2026-01-27 14:46:44 [INFO] com.revplay.main.RevPlayApp - Application exited by user
+2026-01-27 14:46:53 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-27 14:49:13 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: ram@gmail.com
+2026-01-27 14:49:14 [INFO] com.revplay.service.UserServiceImpl - Login success: ram@gmail.com, role=ARTIST
+2026-01-27 14:49:14 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: wrong@gmail.com
+2026-01-27 14:49:14 [WARN] com.revplay.service.UserServiceImpl - Login failed for email: wrong@gmail.com
+2026-01-27 19:48:33 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-27 19:48:53 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: rahul@gmail.com
+2026-01-27 19:48:54 [INFO] com.revplay.service.UserServiceImpl - Login success: rahul@gmail.com, role=USER
+2026-01-27 19:49:21 [INFO] com.revplay.main.RevPlayApp - Application exited by user
+2026-01-27 20:07:30 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: ram@gmail.com
+2026-01-27 20:07:31 [INFO] com.revplay.service.UserServiceImpl - Login success: ram@gmail.com, role=ARTIST
+2026-01-27 20:07:31 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: wrong@gmail.com
+2026-01-27 20:07:32 [WARN] com.revplay.service.UserServiceImpl - Login failed for email: wrong@gmail.com
+2026-01-27 20:11:02 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: ram@gmail.com
+2026-01-27 20:11:04 [INFO] com.revplay.service.UserServiceImpl - Login success: ram@gmail.com, role=ARTIST
+2026-01-27 20:11:04 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: wrong@gmail.com
+2026-01-27 20:11:04 [WARN] com.revplay.service.UserServiceImpl - Login failed for email: wrong@gmail.com
+2026-01-27 20:12:28 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: ram@gmail.com
+2026-01-27 20:12:29 [INFO] com.revplay.service.UserServiceImpl - Login success: ram@gmail.com, role=ARTIST
+2026-01-27 20:12:30 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: wrong@gmail.com
+2026-01-27 20:12:30 [WARN] com.revplay.service.UserServiceImpl - Login failed for email: wrong@gmail.com
+2026-01-27 20:12:42 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: ram@gmail.com
+2026-01-27 20:12:43 [INFO] com.revplay.service.UserServiceImpl - Login success: ram@gmail.com, role=ARTIST
+2026-01-27 20:12:43 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: wrong@gmail.com
+2026-01-27 20:12:43 [WARN] com.revplay.service.UserServiceImpl - Login failed for email: wrong@gmail.com
+2026-01-27 20:14:15 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: ram@gmail.com
+2026-01-27 20:14:16 [INFO] com.revplay.service.UserServiceImpl - Login success: ram@gmail.com, role=ARTIST
+2026-01-27 20:14:16 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: wrong@gmail.com
+2026-01-27 20:14:16 [WARN] com.revplay.service.UserServiceImpl - Login failed for email: wrong@gmail.com
+2026-01-27 20:14:25 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-27 20:14:59 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-27 20:16:12 [INFO] com.revplay.service.UserServiceImpl - User registered successfully: pooja@gmail.com
+2026-01-27 20:16:28 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: pooja@gmail.com
+2026-01-27 20:16:28 [INFO] com.revplay.service.UserServiceImpl - Login success: pooja@gmail.com, role=USER
+2026-01-27 20:17:14 [INFO] com.revplay.service.SongServiceImpl - User 81 requested to play song 302
+2026-01-27 20:17:14 [INFO] com.revplay.service.SongServiceImpl - Play count incremented for songId=302
+2026-01-27 20:17:14 [INFO] com.revplay.service.SongServiceImpl - Listening history added for userId=81, songId=302
+2026-01-27 20:17:14 [INFO] com.revplay.service.SongServiceImpl - Song played successfully: Night Walk
+2026-01-27 20:17:48 [INFO] com.revplay.service.SongServiceImpl - User 81 requested to play song 303
+2026-01-27 20:17:48 [INFO] com.revplay.service.SongServiceImpl - Play count incremented for songId=303
+2026-01-27 20:17:48 [INFO] com.revplay.service.SongServiceImpl - Listening history added for userId=81, songId=303
+2026-01-27 20:17:48 [INFO] com.revplay.service.SongServiceImpl - Song played successfully: Heart Song
+2026-01-27 20:33:20 [INFO] com.revplay.service.ArtistServiceImpl - Saving artist profile for userId=82
+2026-01-27 20:33:20 [INFO] com.revplay.service.ArtistServiceImpl - Artist profile saved successfully for userId=82
+2026-01-27 20:33:43 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: ramya123@gmail.com
+2026-01-27 20:33:43 [INFO] com.revplay.service.UserServiceImpl - Login success: ramya123@gmail.com, role=ARTIST
+2026-01-27 20:34:32 [INFO] com.revplay.service.ArtistServiceImpl - Saving artist profile for userId=82
+2026-01-27 20:34:32 [INFO] com.revplay.service.ArtistServiceImpl - Artist profile saved successfully for userId=82
+2026-01-27 20:35:40 [INFO] com.revplay.service.AlbumServiceImpl - Artist 221 creating album: Pushpa2
+2026-01-27 20:35:40 [INFO] com.revplay.service.AlbumServiceImpl - Album created successfully: Pushpa2
+2026-01-27 20:38:27 [INFO] com.revplay.service.ArtistSongServiceImpl - Updating songId=401 by artistId=221
+2026-01-27 20:38:27 [INFO] com.revplay.service.ArtistSongServiceImpl - Song updated successfully. songId=401
+2026-01-27 20:39:01 [INFO] com.revplay.service.ArtistSongServiceImpl - Deleting songId=401 by artistId=221
+2026-01-27 20:39:01 [INFO] com.revplay.service.ArtistSongServiceImpl - Song deleted successfully. songId=401
+2026-01-27 20:40:35 [INFO] com.revplay.service.AlbumServiceImpl - Updating albumId=321 by artistId=221
+2026-01-27 20:40:35 [INFO] com.revplay.service.AlbumServiceImpl - Album updated successfully. albumId=321
+2026-01-27 20:40:48 [INFO] com.revplay.service.AlbumServiceImpl - Attempting to delete albumId=321 by artistId=221
+2026-01-27 20:40:48 [INFO] com.revplay.service.AlbumServiceImpl - Album deleted successfully. albumId=321
+2026-01-27 20:43:19 [WARN] com.revplay.service.UserServiceImpl - Registration attempt with existing email: ramya123@gmail.com
+2026-01-27 20:43:33 [INFO] com.revplay.main.RevPlayApp - Application exited by user
+2026-01-28 18:26:59 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-29 12:06:10 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-29 12:06:57 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-29 12:07:57 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: manu@gmail.com
+2026-01-29 12:07:59 [WARN] com.revplay.service.UserServiceImpl - Login failed for email: manu@gmail.com
+2026-01-29 12:09:44 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: rahul@gmail.com
+2026-01-29 12:09:44 [INFO] com.revplay.service.UserServiceImpl - Login success: rahul@gmail.com, role=USER
+2026-01-29 12:10:10 [INFO] com.revplay.service.SongServiceImpl - User 1 requested to play song 381
+2026-01-29 12:10:10 [INFO] com.revplay.service.SongServiceImpl - Play count incremented for songId=381
+2026-01-29 12:10:10 [INFO] com.revplay.service.SongServiceImpl - Listening history added for userId=1, songId=381
+2026-01-29 12:10:10 [INFO] com.revplay.service.SongServiceImpl - Song played successfully: Thoofan
+2026-01-29 12:10:27 [INFO] com.revplay.service.SongServiceImpl - User 1 requested to play song 382
+2026-01-29 12:10:27 [WARN] com.revplay.service.SongServiceImpl - Song not found for songId=382
+2026-01-29 12:10:53 [INFO] com.revplay.main.RevPlayApp - Application exited by user
+2026-01-29 12:20:30 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-29 12:20:40 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-29 12:20:56 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: rahul@gmail.com
+2026-01-29 12:20:57 [INFO] com.revplay.service.UserServiceImpl - Login success: rahul@gmail.com, role=USER
+2026-01-29 12:21:23 [INFO] com.revplay.service.SongServiceImpl - User 1 requested to play song 381
+2026-01-29 12:21:24 [INFO] com.revplay.service.SongServiceImpl - Play count incremented for songId=381
+2026-01-29 12:21:24 [INFO] com.revplay.service.SongServiceImpl - Listening history added for userId=1, songId=381
+2026-01-29 12:21:24 [INFO] com.revplay.service.SongServiceImpl - Song played successfully: Thoofan
+2026-01-29 12:21:32 [INFO] com.revplay.service.SongServiceImpl - User 1 requested to play song 382
+2026-01-29 12:21:32 [WARN] com.revplay.service.SongServiceImpl - Song not found for songId=382
+2026-01-29 12:32:41 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: arjun@gmail.com
+2026-01-29 12:32:41 [INFO] com.revplay.service.UserServiceImpl - Login success: arjun@gmail.com, role=ARTIST
+2026-01-29 12:33:26 [INFO] com.revplay.service.ArtistServiceImpl - Saving artist profile for userId=6
+2026-01-29 12:33:26 [INFO] com.revplay.service.ArtistServiceImpl - Artist profile saved successfully for userId=6
+2026-01-29 12:33:51 [INFO] com.revplay.service.AlbumServiceImpl - Artist 101 creating album: AA23
+2026-01-29 12:33:51 [INFO] com.revplay.service.AlbumServiceImpl - Album created successfully: AA23
+2026-01-29 12:34:59 [INFO] com.revplay.service.ArtistSongServiceImpl - Updating songId=421 by artistId=101
+2026-01-29 12:34:59 [INFO] com.revplay.service.ArtistSongServiceImpl - Song updated successfully. songId=421
+2026-01-29 12:35:13 [INFO] com.revplay.service.ArtistSongServiceImpl - Deleting songId=421 by artistId=101
+2026-01-29 12:35:13 [INFO] com.revplay.service.ArtistSongServiceImpl - Song deleted successfully. songId=421
+2026-01-29 12:36:14 [INFO] com.revplay.service.AlbumServiceImpl - Updating albumId=341 by artistId=101
+2026-01-29 12:36:14 [INFO] com.revplay.service.AlbumServiceImpl - Album updated successfully. albumId=341
+2026-01-29 12:36:51 [INFO] com.revplay.service.AlbumServiceImpl - Attempting to delete albumId=206 by artistId=101
+2026-01-29 12:36:51 [INFO] com.revplay.service.AlbumServiceImpl - Album deleted successfully. albumId=206
+2026-01-29 12:39:10 [INFO] com.revplay.service.UserServiceImpl - User registered successfully: s@gmail.com
+2026-01-29 12:39:27 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: s@gmail.com
+2026-01-29 12:39:27 [INFO] com.revplay.service.UserServiceImpl - Login success: s@gmail.com, role=USER
+2026-01-29 12:40:37 [INFO] com.revplay.service.ArtistServiceImpl - Saving artist profile for userId=102
+2026-01-29 12:40:37 [INFO] com.revplay.service.ArtistServiceImpl - Artist profile saved successfully for userId=102
+2026-01-29 12:41:01 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: damar@gmail.com
+2026-01-29 12:41:01 [WARN] com.revplay.service.UserServiceImpl - Login failed for email: damar@gmail.com
+2026-01-29 12:41:12 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: damar@gmail.com
+2026-01-29 12:41:12 [INFO] com.revplay.service.UserServiceImpl - Login success: damar@gmail.com, role=ARTIST
+2026-01-29 12:42:02 [INFO] com.revplay.main.RevPlayApp - Application exited by user
+2026-01-29 12:42:43 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-29 12:48:09 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-29 12:48:49 [INFO] com.revplay.service.UserServiceImpl - User registered successfully: a@gmail.com
+2026-01-29 12:49:02 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: a@gmail.com
+2026-01-29 12:49:02 [INFO] com.revplay.service.UserServiceImpl - Login success: a@gmail.com, role=USER
+2026-01-29 12:49:10 [INFO] com.revplay.main.RevPlayApp - Application exited by user
+2026-01-29 12:51:15 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-29 12:51:25 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: rahul@gmail.com
+2026-01-29 12:51:26 [INFO] com.revplay.service.UserServiceImpl - Login success: rahul@gmail.com, role=USER
+2026-01-29 12:53:49 [INFO] com.revplay.main.RevPlayApp - Application exited by user
+2026-01-29 13:01:01 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-29 13:01:12 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: rahul@gmail.com
+2026-01-29 13:01:13 [INFO] com.revplay.service.UserServiceImpl - Login success: rahul@gmail.com, role=USER
+2026-01-29 14:17:50 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-29 14:18:04 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: rahul@gmail.com
+2026-01-29 14:18:05 [INFO] com.revplay.service.UserServiceImpl - Login success: rahul@gmail.com, role=USER
+2026-01-29 14:21:04 [INFO] com.revplay.service.SongServiceImpl - User 1 requested to play song 301
+2026-01-29 14:21:04 [INFO] com.revplay.service.SongServiceImpl - Play count incremented for songId=301
+2026-01-29 14:21:04 [INFO] com.revplay.service.SongServiceImpl - Listening history added for userId=1, songId=301
+2026-01-29 14:21:04 [INFO] com.revplay.service.SongServiceImpl - Song played successfully: Dreamer
+2026-01-29 14:21:12 [INFO] com.revplay.service.SongServiceImpl - User 1 requested to play song 302
+2026-01-29 14:21:12 [WARN] com.revplay.service.SongServiceImpl - Song not found for songId=302
+2026-01-29 14:35:15 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: arjun@gmail.com
+2026-01-29 14:35:15 [INFO] com.revplay.service.UserServiceImpl - Login success: arjun@gmail.com, role=ARTIST
+2026-01-29 14:36:02 [INFO] com.revplay.service.ArtistServiceImpl - Saving artist profile for userId=6
+2026-01-29 14:36:02 [INFO] com.revplay.service.ArtistServiceImpl - Artist profile saved successfully for userId=6
+2026-01-29 14:36:38 [INFO] com.revplay.service.AlbumServiceImpl - Artist 101 creating album: Rowdy Boy
+2026-01-29 14:36:38 [INFO] com.revplay.service.AlbumServiceImpl - Album created successfully: Rowdy Boy
+2026-01-29 14:41:00 [INFO] com.revplay.service.ArtistSongServiceImpl - Updating songId=422 by artistId=101
+2026-01-29 14:41:00 [INFO] com.revplay.service.ArtistSongServiceImpl - Song updated successfully. songId=422
+2026-01-29 14:41:11 [INFO] com.revplay.service.ArtistSongServiceImpl - Deleting songId=422 by artistId=101
+2026-01-29 14:41:11 [INFO] com.revplay.service.ArtistSongServiceImpl - Song deleted successfully. songId=422
+2026-01-29 14:42:04 [INFO] com.revplay.service.AlbumServiceImpl - Updating albumId=342 by artistId=101
+2026-01-29 14:42:04 [INFO] com.revplay.service.AlbumServiceImpl - Album updated successfully. albumId=342
+2026-01-29 14:42:16 [INFO] com.revplay.service.AlbumServiceImpl - Attempting to delete albumId=342 by artistId=101
+2026-01-29 14:42:16 [INFO] com.revplay.service.AlbumServiceImpl - Album deleted successfully. albumId=342
+2026-01-29 14:42:25 [INFO] com.revplay.main.RevPlayApp - Application exited by user
+2026-01-29 15:03:27 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-29 15:04:11 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: rahul@gmail.com
+2026-01-29 15:04:12 [INFO] com.revplay.service.UserServiceImpl - Login success: rahul@gmail.com, role=USER
+2026-01-29 15:04:27 [INFO] com.revplay.service.SongServiceImpl - User 1 requested to play song 381
+2026-01-29 15:04:27 [INFO] com.revplay.service.SongServiceImpl - Play count incremented for songId=381
+2026-01-29 15:04:27 [INFO] com.revplay.service.SongServiceImpl - Listening history added for userId=1, songId=381
+2026-01-29 15:04:27 [INFO] com.revplay.service.SongServiceImpl - Song played successfully: Thoofan
+2026-01-29 15:04:30 [INFO] com.revplay.service.SongServiceImpl - User 1 requested to play song 382
+2026-01-29 15:04:30 [WARN] com.revplay.service.SongServiceImpl - Song not found for songId=382
+2026-01-29 15:08:54 [INFO] com.revplay.main.RevPlayApp - Application exited by user
+2026-01-29 15:14:22 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-29 15:14:41 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: rahul@gmail.com
+2026-01-29 15:14:42 [INFO] com.revplay.service.UserServiceImpl - Login success: rahul@gmail.com, role=USER
+2026-01-29 15:17:24 [INFO] com.revplay.main.RevPlayApp - Application exited by user
+2026-01-29 15:22:51 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-29 15:23:04 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: rahul@gmail.com
+2026-01-29 15:23:05 [INFO] com.revplay.service.UserServiceImpl - Login success: rahul@gmail.com, role=USER
+2026-01-29 15:30:04 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-29 15:31:18 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: rahul@gmail.com
+2026-01-29 15:31:19 [INFO] com.revplay.service.UserServiceImpl - Login success: rahul@gmail.com, role=USER
+2026-01-29 15:32:15 [INFO] com.revplay.main.RevPlayApp - Application exited by user
+2026-01-29 16:15:44 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-29 16:16:00 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: arjun@gmail.com
+2026-01-29 16:16:01 [INFO] com.revplay.service.UserServiceImpl - Login success: arjun@gmail.com, role=ARTIST
+2026-01-29 16:16:04 [ERROR] com.revplay.dao.PodcastDAOImpl - DB error in PodcastDAOImpl.getPodcastsByArtist()
+java.sql.SQLSyntaxErrorException: ORA-00904: "ARTIST_ID": invalid identifier
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:629) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:563) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1150) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:770) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:298) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:497) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:151) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForDescribe(T4CPreparedStatement.java:936) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.OracleStatement.prepareDefineBufferAndExecute(OracleStatement.java:1171) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1100) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.OracleStatement.executeSQLSelect(OracleStatement.java:1425) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1308) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3745) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:3854) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeQuery(OraclePreparedStatementWrapper.java:1097) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at com.revplay.dao.PodcastDAOImpl.getPodcastsByArtist(PodcastDAOImpl.java:147) [classes/:?]
+	at com.revplay.service.PodcastServiceImpl.getPodcastsByArtist(PodcastServiceImpl.java:49) [classes/:?]
+	at com.revplay.main.RevPlayAppMethonds.viewMyPodcasts(RevPlayAppMethonds.java:1236) [classes/:?]
+	at com.revplay.main.RevPlayAppMethonds.artistDashboard(RevPlayAppMethonds.java:784) [classes/:?]
+	at com.revplay.main.RevPlayAppMethonds.handleLogin(RevPlayAppMethonds.java:156) [classes/:?]
+	at com.revplay.main.RevPlayApp.main(RevPlayApp.java:32) [classes/:?]
+Caused by: oracle.jdbc.OracleDatabaseException: ORA-00904: "ARTIST_ID": invalid identifier
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:636) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	... 20 more
+2026-01-29 16:16:58 [ERROR] com.revplay.dao.PodcastDAOImpl - DB error in PodcastDAOImpl.createPodcast()
+java.sql.SQLSyntaxErrorException: ORA-00904: "ARTIST_ID": invalid identifier
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:629) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:563) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1150) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:770) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:298) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:497) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:151) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1051) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1530) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1310) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3745) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeLargeUpdate(OraclePreparedStatement.java:3917) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:3896) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:991) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at com.revplay.dao.PodcastDAOImpl.createPodcast(PodcastDAOImpl.java:119) [classes/:?]
+	at com.revplay.service.PodcastServiceImpl.createPodcast(PodcastServiceImpl.java:39) [classes/:?]
+	at com.revplay.main.RevPlayAppMethonds.handleCreatePodcast(RevPlayAppMethonds.java:1226) [classes/:?]
+	at com.revplay.main.RevPlayAppMethonds.artistDashboard(RevPlayAppMethonds.java:781) [classes/:?]
+	at com.revplay.main.RevPlayAppMethonds.handleLogin(RevPlayAppMethonds.java:156) [classes/:?]
+	at com.revplay.main.RevPlayApp.main(RevPlayApp.java:32) [classes/:?]
+Caused by: oracle.jdbc.OracleDatabaseException: ORA-00904: "ARTIST_ID": invalid identifier
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:636) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	... 19 more
+2026-01-29 16:34:30 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-29 16:35:16 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: arjun@gmail.com
+2026-01-29 16:35:17 [INFO] com.revplay.service.UserServiceImpl - Login success: arjun@gmail.com, role=ARTIST
+2026-01-29 16:36:43 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: arjun@gmail.com
+2026-01-29 16:36:44 [INFO] com.revplay.service.UserServiceImpl - Login success: arjun@gmail.com, role=ARTIST
+2026-01-29 16:40:32 [INFO] com.revplay.main.RevPlayApp - Application exited by user
+2026-01-29 16:40:41 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-29 16:40:57 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: arjun@gmail.com
+2026-01-29 16:40:57 [INFO] com.revplay.service.UserServiceImpl - Login success: arjun@gmail.com, role=ARTIST
+2026-01-29 16:42:27 [INFO] com.revplay.main.RevPlayApp - Application exited by user
+2026-01-29 16:43:42 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-29 16:45:55 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: arjun@gmail.com
+2026-01-29 16:45:56 [INFO] com.revplay.service.UserServiceImpl - Login success: arjun@gmail.com, role=ARTIST
+2026-01-29 16:46:22 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-29 16:46:31 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: arjun@gmail.com
+2026-01-29 16:46:32 [INFO] com.revplay.service.UserServiceImpl - Login success: arjun@gmail.com, role=ARTIST
+2026-01-29 19:25:33 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-29 19:25:49 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: arjun@gmail.com
+2026-01-29 19:25:51 [INFO] com.revplay.service.UserServiceImpl - Login success: arjun@gmail.com, role=ARTIST
+2026-01-29 19:28:53 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-29 19:29:07 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: arjun@gmail.com
+2026-01-29 19:29:08 [INFO] com.revplay.service.UserServiceImpl - Login success: arjun@gmail.com, role=ARTIST
+2026-01-29 19:30:07 [INFO] com.revplay.service.ArtistServiceImpl - Saving artist profile for userId=6
+2026-01-29 19:30:07 [INFO] com.revplay.service.ArtistServiceImpl - Artist profile saved successfully for userId=6
+2026-01-29 19:30:48 [INFO] com.revplay.service.AlbumServiceImpl - Artist 101 creating album: Sahoo
+2026-01-29 19:30:48 [INFO] com.revplay.service.AlbumServiceImpl - Album created successfully: Sahoo
+2026-01-29 19:31:39 [INFO] com.revplay.service.AlbumServiceImpl - Updating albumId=361 by artistId=101
+2026-01-29 19:31:39 [INFO] com.revplay.service.AlbumServiceImpl - Album updated successfully. albumId=361
+2026-01-29 19:33:04 [INFO] com.revplay.service.ArtistSongServiceImpl - Updating songId=441 by artistId=101
+2026-01-29 19:33:04 [INFO] com.revplay.service.ArtistSongServiceImpl - Song updated successfully. songId=441
+2026-01-29 19:44:29 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: rahul@gmail.com
+2026-01-29 19:44:29 [INFO] com.revplay.service.UserServiceImpl - Login success: rahul@gmail.com, role=USER
+2026-01-29 19:45:01 [INFO] com.revplay.service.SongServiceImpl - User 1 requested to play song 441
+2026-01-29 19:45:01 [INFO] com.revplay.service.SongServiceImpl - Play count incremented for songId=441
+2026-01-29 19:45:01 [INFO] com.revplay.service.SongServiceImpl - Listening history added for userId=1, songId=441
+2026-01-29 19:45:01 [INFO] com.revplay.service.SongServiceImpl - Song played successfully: Saahoo Title Track
+2026-01-29 19:45:12 [INFO] com.revplay.service.SongServiceImpl - User 1 requested to play song 442
+2026-01-29 19:45:12 [WARN] com.revplay.service.SongServiceImpl - Song not found for songId=442
+2026-01-29 19:45:28 [INFO] com.revplay.service.SongServiceImpl - User 1 requested to play song 308
+2026-01-29 19:45:28 [INFO] com.revplay.service.SongServiceImpl - Play count incremented for songId=308
+2026-01-29 19:45:28 [INFO] com.revplay.service.SongServiceImpl - Listening history added for userId=1, songId=308
+2026-01-29 19:45:28 [INFO] com.revplay.service.SongServiceImpl - Song played successfully: Divine
+2026-01-29 19:45:33 [INFO] com.revplay.service.SongServiceImpl - User 1 requested to play song 309
+2026-01-29 19:45:33 [INFO] com.revplay.service.SongServiceImpl - Play count incremented for songId=309
+2026-01-29 19:45:33 [INFO] com.revplay.service.SongServiceImpl - Listening history added for userId=1, songId=309
+2026-01-29 19:45:33 [INFO] com.revplay.service.SongServiceImpl - Song played successfully: EDM Drop
+2026-01-29 19:56:30 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-29 19:56:40 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: rahul@gmail.com
+2026-01-29 19:56:41 [INFO] com.revplay.service.UserServiceImpl - Login success: rahul@gmail.com, role=USER
+2026-01-29 19:59:53 [INFO] com.revplay.service.UserServiceImpl - User registered successfully: ayush@gmail.com
+2026-01-29 20:00:55 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: ayush@gmail.com
+2026-01-29 20:00:55 [INFO] com.revplay.service.UserServiceImpl - Login success: ayush@gmail.com, role=USER
+2026-01-29 20:01:59 [ERROR] com.revplay.dao.UserDAOImpl - DB error in UserDAOImpl.registerArtist()
+java.sql.SQLIntegrityConstraintViolationException: ORA-00001: unique constraint (SYSTEM.SYS_C008321) violated
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:629) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:563) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1150) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:770) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:298) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:497) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:151) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1051) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1530) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1310) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3745) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeLargeUpdate(OraclePreparedStatement.java:3917) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:3896) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:991) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	at com.revplay.dao.UserDAOImpl.registerArtist(UserDAOImpl.java:93) [classes/:?]
+	at com.revplay.service.UserServiceImpl.registerArtist(UserServiceImpl.java:92) [classes/:?]
+	at com.revplay.main.RevPlayAppMethonds.handleArtistRegister(RevPlayAppMethonds.java:60) [classes/:?]
+	at com.revplay.main.RevPlayApp.main(RevPlayApp.java:38) [classes/:?]
+Caused by: oracle.jdbc.OracleDatabaseException: ORA-00001: unique constraint (SYSTEM.SYS_C008321) violated
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:636) ~[ojdbc8-21.9.0.0.jar:21.9.0.0.0]
+	... 17 more
+2026-01-29 20:02:21 [INFO] com.revplay.service.ArtistServiceImpl - Saving artist profile for userId=102
+2026-01-29 20:02:21 [INFO] com.revplay.service.ArtistServiceImpl - Artist profile saved successfully for userId=102
+2026-01-29 20:04:09 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: damar@gmail.com
+2026-01-29 20:04:09 [INFO] com.revplay.service.UserServiceImpl - Login success: damar@gmail.com, role=ARTIST
+2026-01-29 20:12:05 [INFO] com.revplay.main.RevPlayApp - Application exited by user
+2026-01-29 20:22:02 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-29 20:23:16 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-29 20:24:02 [WARN] com.revplay.service.UserServiceImpl - Artist registration failed: email already exists - rahul@gmail.com
+2026-01-29 20:24:56 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: arjun@gmail.com
+2026-01-29 20:24:56 [INFO] com.revplay.service.UserServiceImpl - Login success: arjun@gmail.com, role=ARTIST
+2026-01-29 20:28:04 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: damar@gmail.com
+2026-01-29 20:28:04 [INFO] com.revplay.service.UserServiceImpl - Login success: damar@gmail.com, role=ARTIST
+2026-01-29 20:28:32 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: rahul@gmail.com
+2026-01-29 20:28:32 [INFO] com.revplay.service.UserServiceImpl - Login success: rahul@gmail.com, role=USER
+2026-01-29 20:29:34 [INFO] com.revplay.main.RevPlayApp - Application exited by user
+2026-01-30 09:23:04 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-30 09:24:02 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: damar@gmail.com
+2026-01-30 09:24:03 [INFO] com.revplay.service.UserServiceImpl - Login success: damar@gmail.com, role=ARTIST
+2026-01-30 09:24:11 [INFO] com.revplay.main.RevPlayApp - Application exited by user

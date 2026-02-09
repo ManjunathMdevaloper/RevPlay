@@ -1,0 +1,8 @@
+2026-02-07 10:20:12 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-02-07 10:21:59 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: arjun@gmail.com
+2026-02-07 10:22:00 [INFO] com.revplay.service.UserServiceImpl - Login success: arjun@gmail.com, role=ARTIST
+2026-02-07 10:23:15 [INFO] com.revplay.main.RevPlayApp - Application exited by user
+2026-02-07 10:26:35 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-02-07 10:26:50 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: rahul@gmail.com
+2026-02-07 10:26:51 [INFO] com.revplay.service.UserServiceImpl - Login success: rahul@gmail.com, role=USER
+2026-02-07 10:27:32 [INFO] com.revplay.main.RevPlayApp - Application exited by user

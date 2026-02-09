@@ -1,0 +1,41 @@
+2026-02-08 14:45:59 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-02-08 14:46:44 [INFO] com.revplay.service.UserServiceImpl - User registered successfully: l@gmail.com
+2026-02-08 14:46:57 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: l@gmail.com
+2026-02-08 14:46:58 [INFO] com.revplay.service.UserServiceImpl - Login success: l@gmail.com, role=USER
+2026-02-08 14:47:39 [INFO] com.revplay.service.SongServiceImpl - User 141 requested to play song 461
+2026-02-08 14:47:39 [INFO] com.revplay.service.SongServiceImpl - Play count incremented for songId=461
+2026-02-08 14:47:39 [INFO] com.revplay.service.SongServiceImpl - Listening history added for userId=141, songId=461
+2026-02-08 14:47:39 [INFO] com.revplay.service.SongServiceImpl - Song played successfully: Ramam Rghavam song
+2026-02-08 14:47:46 [INFO] com.revplay.service.SongServiceImpl - User 141 requested to play song 462
+2026-02-08 14:47:46 [WARN] com.revplay.service.SongServiceImpl - Song not found for songId=462
+2026-02-08 15:01:13 [WARN] com.revplay.service.UserServiceImpl - Artist registration failed: email already exists - k@gmail.com
+2026-02-08 15:01:56 [INFO] com.revplay.service.UserServiceImpl - Artist registered successfully: kashi@gmail.com
+2026-02-08 15:02:24 [INFO] com.revplay.service.ArtistServiceImpl - Saving artist profile for userId=142
+2026-02-08 15:02:25 [INFO] com.revplay.service.ArtistServiceImpl - Artist profile saved successfully for userId=142
+2026-02-08 15:02:36 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: kashi@gmail.com
+2026-02-08 15:02:36 [INFO] com.revplay.service.UserServiceImpl - Login success: kashi@gmail.com, role=ARTIST
+2026-02-08 15:03:17 [INFO] com.revplay.service.ArtistServiceImpl - Saving artist profile for userId=142
+2026-02-08 15:03:17 [INFO] com.revplay.service.ArtistServiceImpl - Artist profile saved successfully for userId=142
+2026-02-08 15:03:55 [INFO] com.revplay.service.AlbumServiceImpl - Artist 261 creating album: Dhurandhar
+2026-02-08 15:03:55 [INFO] com.revplay.service.AlbumServiceImpl - Album created successfully: Dhurandhar
+2026-02-08 15:04:30 [INFO] com.revplay.service.AlbumServiceImpl - Updating albumId=401 by artistId=261
+2026-02-08 15:04:30 [INFO] com.revplay.service.AlbumServiceImpl - Album updated successfully. albumId=401
+2026-02-08 15:05:38 [INFO] com.revplay.service.ArtistSongServiceImpl - Updating songId=481 by artistId=261
+2026-02-08 15:05:38 [INFO] com.revplay.service.ArtistSongServiceImpl - Song updated successfully. songId=481
+2026-02-08 15:10:08 [INFO] com.revplay.service.AlbumServiceImpl - Attempting to delete albumId=401 by artistId=261
+2026-02-08 15:10:08 [INFO] com.revplay.service.AlbumServiceImpl - Album deleted successfully. albumId=401
+2026-02-08 15:14:30 [INFO] com.revplay.main.RevPlayApp - Application exited by user
+2026-02-08 15:24:29 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: ram@gmail.com
+2026-02-08 15:24:29 [INFO] com.revplay.service.UserServiceImpl - Login success: ram@gmail.com, role=ARTIST
+2026-02-08 15:24:29 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: wrong@gmail.com
+2026-02-08 15:24:29 [WARN] com.revplay.service.UserServiceImpl - Login failed for email: wrong@gmail.com
+2026-02-08 15:31:59 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: ram@gmail.com
+2026-02-08 15:31:59 [INFO] com.revplay.service.UserServiceImpl - Login success: ram@gmail.com, role=ARTIST
+2026-02-08 15:31:59 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: wrong@gmail.com
+2026-02-08 15:31:59 [WARN] com.revplay.service.UserServiceImpl - Login failed for email: wrong@gmail.com
+2026-02-08 18:33:56 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-02-08 18:34:11 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: rahul@gmail.com
+2026-02-08 18:34:12 [INFO] com.revplay.service.UserServiceImpl - Login success: rahul@gmail.com, role=USER
+2026-02-08 18:34:18 [INFO] com.revplay.main.RevPlayApp - Application exited by user
+2026-02-08 18:37:39 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-02-08 18:37:42 [INFO] com.revplay.main.RevPlayApp - Application exited by user

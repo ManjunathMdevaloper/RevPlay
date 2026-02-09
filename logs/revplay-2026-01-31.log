@@ -1,0 +1,4 @@
+2026-01-31 20:26:48 [INFO] com.revplay.main.RevPlayApp - RevPlay application started
+2026-01-31 20:27:00 [INFO] com.revplay.service.UserServiceImpl - Login attempt for email: rahul@gmail.com
+2026-01-31 20:27:01 [INFO] com.revplay.service.UserServiceImpl - Login success: rahul@gmail.com, role=USER
+2026-01-31 20:27:17 [INFO] com.revplay.main.RevPlayApp - Application exited by user

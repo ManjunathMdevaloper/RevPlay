@@ -1,0 +1,172 @@
+RevPlay/
+│
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/revplay/
+│   │   │       ├── main/
+│   │   │       │   ├── RevPlayApp.java           # Main Entry Point
+│   │   │       │   ├── RevPlayAppMethonds.java   # UI Logic & Handlers
+│   │   │       │   ├── DBTest.java               # Database Connection Test
+│   │   │       │   └── UserLoginTest.java        # Login Logic Test
+│   │   │       │
+│   │   │       ├── model/                        # Data Entities (POJOs)
+│   │   │       │   ├── User.java
+│   │   │       │   ├── Artist.java
+│   │   │       │   ├── Album.java
+│   │   │       │   ├── Song.java
+│   │   │       │   ├── Playlist.java
+│   │   │       │   ├── Favorite.java
+│   │   │       │   ├── ListeningHistory.java
+│   │   │       │   ├── Podcast.java
+│   │   │       │   └── PodcastEpisode.java
+│   │   │       │
+│   │   │       ├── service/                      # Business Logic Layer
+│   │   │       │   ├── UserService.java / UserServiceImpl.java
+│   │   │       │   ├── ArtistService.java / ArtistServiceImpl.java
+│   │   │       │   ├── AlbumService.java / AlbumServiceImpl.java
+│   │   │       │   ├── SongService.java / SongServiceImpl.java
+│   │   │       │   ├── ArtistSongService.java / ArtistSongServiceImpl.java
+│   │   │       │   ├── PlaylistService.java / PlaylistServiceImpl.java
+│   │   │       │   └── PodcastService.java / PodcastServiceImpl.java
+│   │   │       │
+│   │   │       ├── dao/                          # Data Access Layer (JDBC)
+│   │   │       │   ├── UserDAO.java / UserDAOImpl.java
+│   │   │       │   ├── ArtistDAO.java / ArtistDAOImpl.java
+│   │   │       │   ├── AlbumDAO.java / AlbumDAOImpl.java
+│   │   │       │   ├── SongDAO.java / SongDAOImpl.java
+│   │   │       │   ├── ArtistSongDAO.java / ArtistSongDAOImpl.java
+│   │   │       │   ├── PlaylistDAO.java / PlaylistDAOImpl.java
+│   │   │       │   ├── PodcastDAO.java / PodcastDAOImpl.java
+│   │   │       │   ├── FavoriteDAO.java / FavoriteDAOImpl.java
+│   │   │       │   └── ListeningHistoryDAO.java / ListeningHistoryDAOImpl.java
+│   │   │       │
+│   │   │       └── util/                         # Utilities
+│   │   │           └── DBConnection.java         # JDBC Connection Utility
+│   │   │
+│   │   └── resources/
+│   │       └── log4j2.xml                        # Logging Configuration
+│   │
+│   └── test/                                     # Automated Test Cases
+│       └── ... (Unit Tests)
+│
+├── pom.xml                                       # Maven Dependencies
+└── README.md                                     # Project Documentation
+------------------------------------------------------------------
+DB Setup:
+
+Purpose	        Value
+
+Database	    Oracle 21c XE
+SQL Tool	    SQL Developer
+Browser Tool	EM Express
+DB Port	        1522
+Web Port	    5500
+Service	        XEPDB1
+
+OVERVIEW
+--------
+RevPlay is a console-based music streaming application.
+The database supports users, artists, songs, albums,
+playlists, favorites, and listening history.
+Design follows normalization using PK–FK relationships.
+
+----------------------------------------------------
+TABLES & PURPOSE
+----------------------------------------------------
+
+USERS
+-----
+Stores login details for all users.
+(user_id PK, name, email, password, role, created_at)
+
+Relations:
+USERS 1 → * PLAYLISTS
+USERS 1 → * FAVORITES
+USERS 1 → * LISTENING_HISTORY
+USERS 1 → 1 ARTISTS
+
+----------------------------------------------------
+
+ARTISTS
+-------
+Stores artist profile details.
+(artist_id PK, user_id FK, bio, genre, social_links)
+
+Relations:
+ARTISTS 1 → * SONGS
+ARTISTS 1 → * ALBUMS
+
+----------------------------------------------------
+
+ALBUMS
+------
+Stores albums created by artists.
+(album_id PK, title, release_date, artist_id FK)
+
+Relations:
+ALBUMS 1 → * SONGS
+
+----------------------------------------------------
+
+SONGS
+-----
+Stores all songs uploaded by artists.
+(song_id PK, title, genre, duration, release_date,
+ play_count, artist_id FK, album_id FK)
+
+Relations:
+SONGS * → 1 ARTISTS
+SONGS * → 1 ALBUMS
+SONGS * → * PLAYLISTS
+SONGS * → * USERS (via FAVORITES)
+
+----------------------------------------------------
+
+PLAYLISTS
+---------
+Stores playlists created by users.
+(playlist_id PK, name, description, is_public, user_id FK)
+
+Relations:
+PLAYLISTS * → 1 USERS
+PLAYLISTS * → * SONGS
+
+----------------------------------------------------
+
+PLAYLIST_SONGS
+--------------
+Junction table for playlists and songs.
+(playlist_id PK/FK, song_id PK/FK)
+
+----------------------------------------------------
+
+FAVORITES
+---------
+Stores user favorite songs.
+(user_id PK/FK, song_id PK/FK, added_at)
+
+----------------------------------------------------
+
+LISTENING_HISTORY
+-----------------
+Tracks played songs and history.
+(history_id PK, user_id FK, song_id FK, played_at)
+
+----------------------------------------------------
+ERD RELATION SUMMARY
+----------------------------------------------------
+
+USERS → ARTISTS → ALBUMS → SONGS
+USERS → PLAYLISTS → PLAYLIST_SONGS → SONGS
+USERS → FAVORITES → SONGS
+USERS → LISTENING_HISTORY → SONGS
+
+----------------------------------------------------
+DESIGN NOTES
+----------------------------------------------------
+• Role-based access handled via USERS table
+• Many-to-many handled using junction tables
+• Supports playlists, favorites, play count & history
+• Scalable for future web/mobile expansion
+-----------------------------------------------------------------
