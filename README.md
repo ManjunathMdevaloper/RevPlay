@@ -19,42 +19,48 @@ RevPlay is a comprehensive, enterprise-grade Java application designed for high-
 </p>
 
 📌 The diagram illustrates the complete modular architecture of RevPlay:
-- Presentation Layer (CLI / Menu Handling)
-- Service Layer (Business Logic & Orchestration)
-- DAO Layer (JDBC-based Data Access)
-- Model Layer (POJOs)
-- Database Layer (Oracle XE)
+- **Presentation Layer**: CLI-based interactive menus and handlers.
+- **Service Layer**: Business logic, validation, and orchestration.
+- **DAO Layer**: JDBC-based Data Access Objects for Oracle interaction.
+- **Model Layer**: Plain Old Java Objects (POJOs) representing domain entities.
+- **Database Layer**: Oracle 21c XE for persistent storage.
 
-This design ensures separation of concerns, scalability, and maintainability.
+
+---
+
+## 🧪 Testing & Code Quality
+
+### Running Tests
+RevPlay uses **JUnit 5** and **Mockito 5** for robust testing.
+```bash
+mvn test
+```
+To run the full test suite specifically:
+```bash
+mvn test -Dtest=SuiteClassMain
+```
+
+### Code Coverage (JaCoCo)
+After running tests, a detailed coverage report is generated:
+- **Report Location**: `target/site/jacoco/index.html`
+- Open this file in any browser to view detailed coverage metrics.
+
+---
 
 ## 🏗 Project Structure
-
-The project follows a modular, layered architecture to ensure separation of concerns and scalability:
 
 ```text
 revplay/
 ├── src/main/java/com/revplay/
 │   ├── main/               # Presentation Layer: Entry point and UI logic
-│   │   ├── RevPlayApp.java         # Master controller with main()
-│   │   └── RevPlayAppMethonds.java # UI workflow and Menu handlers
-│   ├── service/            # Service Layer: Business logic and orchestrations
-│   │   ├── UserService / PlaylistService / PodcastService / SongService
-│   │   └── ArtistService / AlbumService / ArtistSongService
-│   ├── dao/                # Data Layer: Direct JDBC database interactions
-│   │   ├── UserDAO / PlaylistDAO / PodcastDAO / SongDAO
-│   │   ├── FavoriteDAO / ListeningHistoryDAO / ArtistDAO
-│   │   └── AlbumDAO / ArtistSongDAO
-│   ├── model/              # Domain Layer: POJOs representing DB entities
-│   │   └── User, Song, Podcast, Episode, Artist, Album, Playlist, etc.
-│   └── util/               # Utility Layer
-│       └── DBConnection.java       # Centralized JDBC connection pool logic
-├── src/test/java/com/revplay/test/ # Test Layer: JUnit 5 Service Tests
-│   ├── AlbumServiceTest / SongServiceTest / UserServiceTest
-│   ├── PlaylistServiceTest / PodcastServiceTest / BasicTest
-│   └── SuiteClassMain.java         # Master Test Suite for all service layers
-├── src/main/resources/     # Resource Layer
-│   └── log4j2.xml                  # Enterprise logging configuration
-├── pom.xml                 # Maven configuration and dependencies (JUnit 5, Oracle, Log4j2)
+│   ├── service/            # Service Layer: Business logic and implementations
+│   ├── dao/                # Data Layer: JDBC database implementations
+│   ├── model/              # Domain Layer: POJOs (User, Song, Podcast, etc.)
+│   └── util/               # Utility Layer: DB Connection pool
+├── src/test/java/com/revplay/test/ # Automated JUnit 5 test cases
+├── docs/                   # Planning, SQL scripts, and presentations
+├── images/                 # Architecture and ERD diagrams
+├── pom.xml                 # Maven configuration
 └── README.md               # Project documentation
 ```
 
@@ -72,52 +78,24 @@ revplay/
 - 📝 **Detailed Project Notes**  
   👉 [RevPlayNotes.docx](docs/RevPlayNotes.docx)
 
-
----
-
-## 🔄 Working Flow
-
-### 1. Initialization & Authentication
-- **App Start**: `RevPlayApp` initializes the database connection and loads the main menu.
-- **Role Assignment**: During registration, users choose between **USER** or **ARTIST**.
-- **Login**: `UserService` validates credentials against the Oracle database and routes users to their respective dashboards.
-
-### 2. User Workflow (The Listener)
-- **Discovery**: Users perform keyword searches or browse content by Genre, Artist, or Album via `SongService`.
-- **Engagement**: Play songs or podcasts with built-in controls (Pause/Resume/Repeat). `ListeningHistory` is updated automatically.
-- **Personalization**: Users manage private/public playlists and "Favorite" tracks via `PlaylistService` and `FavoriteDAO`.
-
-### 3. Artist Workflow (The Creator)
-- **Profile Setup**: Artists initialize their professional bio and social links.
-- **Content Pipeline**: 
-    - **Music**: Create Albms -> Upload Songs -> Manage tracks.
-    - **Podcasts**: Create Podcasts -> Manage Episodes.
-- **Management**: full **CRUD** (Create, Read, Update, Delete) capabilities for all hosted content.
-- **Analytics**: Real-time tracking of song play counts and podcast episode engagement via the Analytics dashboard.
-
 ---
 
 ## ✨ Enterprise Features
+- **Transactional Integrity**: Atomic SQL operations for complex deletions.
+- **Global Search**: Unified probe across music and podcast repositories.
+- **Security**: Password recovery and unique constraint handling.
+- **Logging**: Integrated `Log4j2` for diagnostics and analytics.
 
-- **🚀 Transactional Integrity**: Critical operations like "Delete Podcast" or "Delete Playlist" use atomic SQL transactions to ensure no orphaned data remains.
-- **🔍 Global Search Engine**: A unified search interface that probes both music and podcast repositories simultaneously.
-- **🛡 Robust Security**: Password hint recovery systems and email duplication checks during registration.
-- **📊 Real-time Stats**: Dynamic play-count incrementation every time a track or episode is streamed.
-- **📜 Professional Logging**: Integrated `Log4j2` for tracking system health, search analytics, and error diagnostics.
-
----
-
-## 🛠 Technology Stack
-- **Language**: Java (Enterprise Edition logic)
-- **Database**: Oracle XE (Relational Database Service)
-- **Persistence**: JDBC (Java Database Connectivity)
-- **Testing**: JUnit 5 (JUnit Jupiter & JUnit Platform Suite)
-- **Build System**: Maven
-- **Logging**: Apache Log4j2
 
 ---
 
-## � DB Schema (ERD) - Coding Representation
+## 👨‍💻 About the Creator
+Created with ❤️ by **Manjunath**.
+*A showcase of clean code, architectural best practices, and enterprise system design.*
+
+---
+
+## 🏗 Coding Representation (ERD)
 
 ```mermaid
 erDiagram
@@ -222,8 +200,3 @@ erDiagram
     }
 ```
 
----
-
-## �📝 About the Creator
-Created with ❤️ by **Manjunath**.
-*A showcase of clean code, architectural best practices, and enterprise system design.*
